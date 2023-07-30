@@ -87,7 +87,7 @@ h2
 .container .one::after
 {
     position: absolute;
-    content: "7d";
+    content: "7 JD";
     background-color: darkviolet;
     width: 50px;
     bottom: 0;
@@ -100,7 +100,7 @@ h2
 .container .two::after
 {
     position: absolute;
-    content: "9d";
+    content: "9 JD";
     background-color: darkviolet;
     width: 50px;
     bottom: 0;
@@ -113,7 +113,7 @@ h2
 .container .three::after
 {
     position: absolute;
-    content: "7d";
+    content: "7 JD";
     background-color: darkviolet;
     width: 50px;
     bottom: 0;
