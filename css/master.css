@@ -129,7 +129,7 @@ h2
     {
         flex-wrap: wrap;
     }
-    .container .one, .two ,.three
+    .container .one,.container .two, .container .three
     {
         margin-bottom: 10px;
     }
