@@ -145,5 +145,9 @@ h2
         width: 25%;
         margin-bottom: 9px;
     }
+    .container .three
+    {
+        margin-top: 10px;
+    }
 
 }
