@@ -129,6 +129,10 @@ h2
     {
         flex-wrap: wrap;
     }
+    .container .one, .two ,.three
+    {
+        margin-bottom: 10px;
+    }
 } 
 
 @media screen and (min-width: 850px) and (max-width: 1199px) {
@@ -144,10 +148,6 @@ h2
         flex-grow: 1;
         width: 25%;
         margin-bottom: 9px;
-    }
-    .container .three
-    {
-        margin-top: 10px;
     }
 
 }
