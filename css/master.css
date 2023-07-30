@@ -1,0 +1,147 @@
+h2
+{
+    font-size: 1.75em;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container
+{
+    display: flex;
+    
+  
+}
+
+.container div
+{
+    
+    padding-top: 40px;
+    padding-left: 4px;
+    padding-bottom:  30px;
+    background-color: gray;
+    position: relative;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid black;
+}
+
+.container div:hover
+{
+    background-color: maroon;
+}
+
+.container .one::before
+{
+    position: absolute;
+    content: "Chicken";
+    height: 35px;
+    width: 145px;
+    background-color: indianred;
+    top: 0;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 12px;
+}
+.container .two::before
+{
+    position: absolute;
+    content: "Beef";
+    height: 35px;
+    width: 145px;
+    color: white;
+    background-color: rgb(103, 13, 13);
+    top: 0;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 12px;
+}
+.container .three::before
+{
+
+    position: absolute;
+    content: "sushi";
+    height: 35px;
+    width: 145px;
+    color: black;
+    top: 0;
+    right: 0px;
+    display: flex;
+    background-color: rgb(240, 159, 8);
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 12px;
+    
+}
+
+.container .one::after
+{
+    position: absolute;
+    content: "7d";
+    background-color: darkturquoise;
+    width: 50px;
+    bottom: 0;
+    left: 0;
+    margin-left: 4px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.container .two::after
+{
+    position: absolute;
+    content: "9d";
+    background-color: darkturquoise;
+    width: 50px;
+    bottom: 0;
+    left: 0;
+    margin-left: 4px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.container .three::after
+{
+    position: absolute;
+    content: "7d";
+    background-color: darkturquoise;
+    width: 50px;
+    bottom: 0;
+    left: 0;
+    margin-left: 4px;
+    border-radius: 5px;
+    
+}
+
+ @media screen and (max-width:849px) 
+{
+    .container
+    {
+        flex-wrap: wrap;
+    }
+} 
+
+@media screen and (min-width: 850px) and (max-width: 1199px) {
+ 
+    .container
+    {
+        flex-wrap: wrap;
+
+    }
+
+    .container .one,.container .two
+    {
+        flex-grow: 1;
+        width: 25%
+    }
+}
