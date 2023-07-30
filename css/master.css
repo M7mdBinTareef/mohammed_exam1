@@ -87,7 +87,7 @@ h2
 .container .one::after
 {
     position: absolute;
-    content: "7 JD";
+    content: "7d";
     background-color: darkviolet;
     width: 50px;
     bottom: 0;
@@ -100,8 +100,8 @@ h2
 .container .two::after
 {
     position: absolute;
-    content: "9 JD";
-    background-color: darkviolet;
+    content: "9d";
+    background-color:darkviolet;
     width: 50px;
     bottom: 0;
     left: 0;
@@ -113,7 +113,7 @@ h2
 .container .three::after
 {
     position: absolute;
-    content: "7 JD";
+    content: "7d";
     background-color: darkviolet;
     width: 50px;
     bottom: 0;
@@ -142,6 +142,8 @@ h2
     .container .one,.container .two
     {
         flex-grow: 1;
-        width: 25%
+        width: 25%;
+        margin-bottom: 9px;
     }
+
 }
